@@ -10,13 +10,23 @@ For Open Source release notes, please see the [Releases page on GitHub](https://
 
 ## Mar 2025: v2.44
 
+### Mar 24, 2025, v2.44.3
+
+- **(Import)** Generic Findings Import will now parse tags in the JSON payload when Async Import is enabled.
+
+### Mar 17, 2025, v2.44.2
+
+- **(Beta UI)** Added a new method to quickly assign permissions to Products or Product Types.  See our [Pro Permissions](/en/customize_dojo/user_management/pro_permissions_overhaul/) for more details.
+
+![image](images/pro_permissions_2.png)
+
 ### Mar 10, 2025: v2.44.1
 
 - **(Beta UI)** Added a field in the View Engagement page which allows a user to navigate to the linked Jira Epic, if one exists.
 - **(Universal Parser)** XML is now a supported file type for Universal Parser.
-- **(SSO)** SSO can now be set up with any kind of [OIDC Configuration](https://auth0.com/docs/authenticate/protocols/openid-connect-protocol).  See ODIC Settings in the Beta UI:
+- **(SSO)** SSO can now be set up with any kind of [OIDC Configuration](https://auth0.com/docs/authenticate/protocols/openid-connect-protocol).  See OIDC Settings in the Beta UI:
 
-![image](images/odic.png)
+![image](images/oidc.png)
 
 ### Mar 3, 2025: v2.44.0
 
